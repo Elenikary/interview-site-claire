@@ -28,8 +28,21 @@
 }
 
 .lead {
-  padding-left: 15%;
+  font-family:'Paytone One', sans-serif;
+  font-style: italic;
+  font-size:170%;
+  padding-left: 4%;
   padding-top: 5%;
+}
+
+.lead2 {
+  font-family:'Paytone One', sans-serif;
+  font-style: italic;
+  font-size:105%;
+  text-align: justify;
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 
@@ -60,10 +73,11 @@
   height: 400px;
   background-color: #81E7A3;
 
-  font-family: "Fascinate", cursive;
-  text-align: center;
+  font-family:'Paytone One', sans-serif;
+  text-align: left;
   color: white;
 }
+
 
 ul{
   list-style-type: none;
@@ -84,8 +98,8 @@ ul{
   height: 400px;
   background-color: #3EC1C2;
 
-  font-family: "Fascinate", cursive;
-  text-align: center;
+  font-family:'Paytone One', sans-serif;
+  text-align: left;
   color: white;
 
 }
