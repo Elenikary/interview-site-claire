@@ -1,0 +1,173 @@
+
+
+/*MAIN BODY - GENERAL STYLING*/
+
+/*MAIN BODY - PAGE OPENING */
+
+.jumbotron{
+  background: url("head_edit_2.jpg") no-repeat center center; 
+  background-size: cover;
+  padding-top: 5%;
+  padding-bottom: 23%;
+  margin-bottom: 0px;
+
+  font-size: 100%;
+  font-family: "Fascinate", cursive;
+  color: #E9B530;
+}
+
+/* text align a little more to the center? (later) */
+.display-4{
+  font-size: 700%;
+  font-family: "Fascinate", cursive;
+  color: #E9B530;
+  text-align: left;
+  padding-left: 8%;
+  padding-top: 8%;
+
+}
+
+.lead {
+  padding-left: 15%;
+  padding-top: 5%;
+}
+
+
+/* TEST */
+
+.column1 {
+  float: left;
+  width:40%;
+  height: 400px;
+  /*background-color: #876D5D;*/
+  background-color: #E22437;
+}
+
+.image1 {
+  border: 5px;
+  border-radius: 0px;
+  width: 80%;
+  align-items: center;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.column2 {
+  float: right;
+  width: 60%;
+  padding: 5px;
+  height: 400px;
+  background-color: #81E7A3;
+
+  font-family: "Fascinate", cursive;
+  text-align: center;
+  color: white;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* row 2 */
+
+.column3 {
+  float: left;
+  width: 60%;
+  height: 400px;
+  background-color: #3EC1C2;
+
+  font-family: "Fascinate", cursive;
+  text-align: center;
+  color: white;
+
+}
+
+.column4 {
+  float: right;
+  width: 40%;
+  height: 400px;
+  background-color: #7db3f0;
+  text-align: center;
+
+}
+
+.image2 {
+  border-radius: 0px;
+  height: 65%;
+  width: 80%;
+  margin-top: 14%;
+  align-items: center;
+   
+}
+
+
+/* Clearfix (clear floats) */
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* row 3 */
+
+.column5 {
+  float: left;
+  width: 40%;
+  height: 400px;
+  background-color: #ab354f;
+
+}
+
+.image3 {
+  border-radius: 0px;
+
+  align-items: center;  
+  height: 75%;
+  width: 55%;
+  margin-top: 10%;
+  margin-left: 20%;
+  align-items: center;
+}
+
+.column6 {
+  float: right;
+  width: 60%;
+  height: 400px;
+  background-color: #ebc680;
+
+  font-family: "Fascinate", cursive;
+  text-align: center;
+  color: white;
+
+}
+
+/* Clearfix (clear floats) */
+.row3::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* footer */
+footer {
+  background-color:#498bdd;
+  height: 40%;
+  width:fill;
+  text-align: center;
+  font-family: "Fascinate", cursive;
+  color: #E9B530;
+}
+
+
+
+
+
+
